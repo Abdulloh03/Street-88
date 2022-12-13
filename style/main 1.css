@@ -4,8 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
     font-family: 'Raleway';
 }
 .container{
@@ -47,6 +45,9 @@ color: #ffffff;
     color: #ffffff;
     text-decoration: none;
 }
+.main{
+    background: #393636;
+}
 .main__info{
     background: #000000;
     border: 1px solid rgba(125, 115, 115, 0.5);
@@ -82,8 +83,68 @@ margin: 6px;
     padding: 22px 14px;
 }
 .main__info-link:hover{
+    transition: .7s;
     background: rgba(105, 207, 23, 0.75); 
 }
-.m
+.main__intro{
+    background: url(../img/food-burger-wallpaper-preview\ 1.jpg) top / cover no-repeat ;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__intro-title{
+    font-weight: 900;
+font-size: 72px;
+line-height: 85px;
+color: #69CF17;
+}
+.main__intro-text-1{
+    font-weight: 400;
+font-size: 36px;
+color: #69CF17;
+
+}
+.main__intro-text-2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.main__intro-btn-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__intro-btn-1{
+    background: rgba(105, 207, 23, 0.5);
+backdrop-filter: blur(9px);
+font-weight: 100;
+font-size: 50px;
+color: #FFFFFF;
+border: none;
+outline: none;
+cursor: pointer;
+width:  285px;
+height: 103px;
+}
+.main__intro-btn-2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    width: 255px;
+    height: 51px;
+    outline: none;
+    cursor: pointer;
+    border: none; 
+}
+
+
+
+
+    
 
 
