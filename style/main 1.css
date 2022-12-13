@@ -47,3 +47,43 @@ color: #ffffff;
     color: #ffffff;
     text-decoration: none;
 }
+.main__info{
+    background: #000000;
+    border: 1px solid rgba(125, 115, 115, 0.5);
+    backdrop-filter: blur(7.5px); 
+}
+.main__info-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.main__info-btn{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    background: rgba(10, 148, 24, 0.75);
+border: 4px solid #06600F;
+border-radius: 4px;
+width: 216px;
+height: 53px;
+margin: 6px;
+}
+.main__info-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  column-gap: 27px;
+  padding: 12px;
+
+}
+.main__info-link{
+    text-decoration: none;
+    color: white;
+    padding: 22px 14px;
+}
+.main__info-link:hover{
+    background: rgba(105, 207, 23, 0.75); 
+}
+.m
+
+
