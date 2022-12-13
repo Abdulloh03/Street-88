@@ -8,3 +8,42 @@
 body{
     font-family: 'Raleway';
 }
+.container{
+    padding: 0 10px;
+     max-width: 1115px;
+     width: 100%;  
+     margin: 0 auto;    
+}
+.header{
+    background: #0C0C0C;
+}
+.header__nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__navbar-box{
+    display: flex;
+    align-items:center ;
+    column-gap:5px ;
+}
+.header__navbar-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+font-size: 16px;
+color: #ffffff;
+}
+.header__navbar-list{
+    margin: 20px 0;
+    display: flex;
+    list-style: none;
+    column-gap: 20px ;
+}
+.header__navbar-link{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
